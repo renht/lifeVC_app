@@ -124,6 +124,7 @@
     height: 9rem;
     background-image: url(http://i1.lifevccdn.com/images/h5/core/background.png);
     background-size: 100% 100%;
+    margin-top: 50px
     .acct-nolog
       width: 100%;
       overflow: hidden;

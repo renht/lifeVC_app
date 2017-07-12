@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-
+import setting from '../components/setting/setting.vue'
 import header from '../components/header/header.vue'
 import allProducts from '../components/allProducts/allProducts.vue'
 import cart from '../components/cart/cart.vue'
@@ -55,6 +55,10 @@ export default new Router({
     {
       path: '/user',
       component: user
+    },
+    {
+      path: '/setting',
+      component: setting
     },
     {
       path: '/login',

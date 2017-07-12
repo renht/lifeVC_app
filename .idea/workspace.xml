@@ -2,39 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d623e1-9235-4564-9270-e3b1c10cf218" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/allProducts/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/backtop/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/cart/cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/cart/cartback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/cart/tool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/login/loginImg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/centerIco1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/centerIco2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/centerIco3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/centerIco4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/centerIco5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/centerIco6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/tool1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/tool2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/tool3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/tool4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/tool5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/tool6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/channel/channel.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/housework/housework.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/login/login.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/register/register.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/App/cart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/App/home2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/App/item2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/App/look2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/App/user2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/register/loginImg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/register/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/setting/cartback.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lifeVC/src/components/setting/setting.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/index.html" afterPath="$PROJECT_DIR$/lifeVC/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/package.json" afterPath="$PROJECT_DIR$/lifeVC/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/App/App.vue" afterPath="$PROJECT_DIR$/lifeVC/src/App/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/allProducts/allProducts.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/allProducts/allProducts.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/cart/cart.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/cart/cart.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/first/first.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/first/first.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/header/header.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/header/header.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/lookAbout/lookAbout.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/lookAbout/lookAbout.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/news/news.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/news/news.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/login/login.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/login/login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/register/register.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/register/register.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/components/user/user.vue" afterPath="$PROJECT_DIR$/lifeVC/src/components/user/user.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lifeVC/src/router/index.js" afterPath="$PROJECT_DIR$/lifeVC/src/router/index.js" />
     </list>
@@ -51,24 +34,52 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lifeVC/src/router/index.js">
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lifeVC/src/App/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#1643#1759#0" expanded="false" />
+                <element signature="e#1823#1973#0" expanded="false" />
+                <element signature="e#1995#2145#0" expanded="false" />
+                <element signature="e#2167#2317#0" expanded="false" />
+                <element signature="e#2339#2489#0" expanded="false" />
+                <element signature="e#2511#2661#0" expanded="false" />
+                <element signature="e#2781#3756#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lifeVC/src/components/register/register.vue">
+      <file leaf-file-name="backtop.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="469">
+              <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lifeVC/src/components/user/user.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="271" selection-end-column="8" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="e#4606#5313#0" expanded="false" />
+                <element signature="e#6368#8605#0" expanded="false" />
+                <element signature="e#8623#9599#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,14 +115,16 @@
       <find>leftback-img</find>
       <find>&lt;/mt-swipe-item&gt;</find>
       <find>&lt;mt-swipe-item&gt;</find>
-      <find>data-v-350514bc=&quot;&quot;</find>
-      <find>data-v-75c9c97a=&quot;&quot;</find>
       <find>data-v-75c9c97a=&quot;&quot;</find>
       <find>em</find>
-      <find>data-v-4e187200=&quot;&quot;</find>
       <find>acct_top_show</find>
       <find>header</find>
       <find>acct-wrap</find>
+      <find>data-v-4e187200=&quot;&quot;</find>
+      <find>src</find>
+      <find>data-v-350514bc=&quot;&quot;</find>
+      <find>data-v-546ab6a7=&quot;&quot;</find>
+      <find>style</find>
     </findStrings>
     <replaceStrings>
       <replace>swipe</replace>
@@ -136,19 +149,20 @@
         <option value="$PROJECT_DIR$/lifeVC/src/components/channel/channel.vue" />
         <option value="$PROJECT_DIR$/lifeVC/src/components/housework/housework.vue" />
         <option value="$PROJECT_DIR$/lifeVC/package.json" />
-        <option value="$PROJECT_DIR$/lifeVC/src/components/first/first.vue" />
-        <option value="$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue" />
         <option value="$PROJECT_DIR$/lifeVC/src/components/allProducts/allProducts.vue" />
         <option value="$PROJECT_DIR$/lifeVC/src/components/cart/cart.vue" />
         <option value="$PROJECT_DIR$/lifeVC/index.html" />
         <option value="$PROJECT_DIR$/lifeVC/src/components/lookAbout/lookAbout.vue" />
-        <option value="$PROJECT_DIR$/lifeVC/src/router/index.js" />
         <option value="$PROJECT_DIR$/lifeVC/src/components/footer/footer.vue" />
-        <option value="$PROJECT_DIR$/lifeVC/src/components/header/header.vue" />
-        <option value="$PROJECT_DIR$/lifeVC/src/components/login/login.vue" />
-        <option value="$PROJECT_DIR$/lifeVC/src/App/App.vue" />
-        <option value="$PROJECT_DIR$/lifeVC/src/components/user/user.vue" />
         <option value="$PROJECT_DIR$/lifeVC/src/components/register/register.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/components/login/login.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/router/index.js" />
+        <option value="$PROJECT_DIR$/lifeVC/src/components/user/user.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/components/header/header.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/components/first/first.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/components/setting/setting.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/App/App.vue" />
+        <option value="$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue" />
       </list>
     </option>
   </component>
@@ -255,32 +269,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeVC_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeVC_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifeVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="register" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -297,15 +285,15 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/router/index.js&#10;new&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/news/news.vue&#10;app&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/App/App.vue&#10;look&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/lookAbout/lookAbout.vue&#10;us&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/user/user.vue&#10;use&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/user/user.vue&#10;firs&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/first/first.vue&#10;chan&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/channel/channel.vue&#10;hou&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/housework/housework.vue&#10;house&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/housework/housework.vue&#10;cart&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/cart/cart.vue&#10;inde&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/router/index.js" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/App/App.vue&#10;header&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/header/header.vue&#10;user&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/user/user.vue&#10;index&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/router/index.js&#10;new&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/news/news.vue&#10;look&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/lookAbout/lookAbout.vue&#10;us&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/user/user.vue&#10;use&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/user/user.vue&#10;firs&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/first/first.vue&#10;chan&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/channel/channel.vue&#10;hou&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/housework/housework.vue&#10;house&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/housework/housework.vue&#10;cart&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/components/cart/cart.vue&#10;inde&#9;FILE&#9;file://E:/WEBstorm_frame/lifeVC_app/lifeVC/src/router/index.js" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\components\setting" />
+      <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\components\register" />
       <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\App" />
       <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\components\footer" />
       <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\components\login" />
-      <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\components\user" />
-      <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\components\cart" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WEBstorm_frame\lifeVC_app\lifeVC\src\App" />
@@ -411,12 +399,20 @@
       <workItem from="1499648138936" duration="45147000" />
       <workItem from="1499732763418" duration="1290000" />
       <workItem from="1499734201440" duration="45006000" />
-      <workItem from="1499818656420" duration="4592000" />
+      <workItem from="1499818656420" duration="17154000" />
     </task>
+    <task id="LOCAL-00001" summary="day2，完成其余页面">
+      <created>1499823976770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499823976770</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97712000" />
+    <option name="totallyTimeSpent" value="110274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -445,9 +441,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day2，完成其余页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2，完成其余页面" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -490,9 +490,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +510,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2348#2429#0" expanded="false" />
+            <element signature="e#2451#6454#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -525,13 +532,13 @@
             <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#2;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#2;n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="e#4606#5313#0" expanded="false" />
-            <element signature="e#5336#6323#0" expanded="false" />
-            <element signature="e#6347#8584#0" expanded="false" />
-            <element signature="e#8602#9578#0" expanded="false" />
+            <element signature="e#5336#6344#0" expanded="false" />
+            <element signature="e#6368#8605#0" expanded="false" />
+            <element signature="e#8623#9599#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,10 +548,9 @@
         <state relative-caret-position="1218">
           <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
           <folding>
-            <element signature="n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -712,6 +718,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,6 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lifeVC/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -767,34 +767,6 @@
           <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding>
             <element signature="e#918#1758#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/first/first.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#mt-swipe-item#1;n#mt-swipe#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -831,6 +803,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -882,37 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/login/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-          <folding>
-            <element signature="n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/header/header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lifeVC/src/components/news/news.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -925,49 +867,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/App/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="82" column="6" lean-forward="true" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/login/loginImg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/user/user.vue">
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/login/login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="168">
+          <caret line="150" column="30" lean-forward="false" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           <folding>
-            <element signature="n#header#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#2;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#4606#5313#0" expanded="false" />
-            <element signature="e#5336#6323#0" expanded="false" />
-            <element signature="e#6347#8584#0" expanded="false" />
-            <element signature="e#8602#9578#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifeVC/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="n#style#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lifeVC/src/components/register/register.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="616">
+          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#1;n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#2348#2429#0" expanded="false" />
+            <element signature="e#2451#6454#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/header/header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="57" column="21" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#6;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#7;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#li#9;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/first/first.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="231" column="21" lean-forward="false" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#mt-swipe-item#1;n#mt-swipe#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/setting/setting.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding>
+            <element signature="n#article#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#article#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1626#4359#0" expanded="false" />
+            <element signature="e#1735#2653#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/HBuilderProject/APP/0505/music/music.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="716" column="31" lean-forward="true" selection-start-line="716" selection-start-column="31" selection-end-line="716" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/user/user.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="271" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="e#4606#5313#0" expanded="false" />
+            <element signature="e#6368#8605#0" expanded="false" />
+            <element signature="e#8623#9599#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/backtop/back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/App/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#1643#1759#0" expanded="false" />
+            <element signature="e#1823#1973#0" expanded="false" />
+            <element signature="e#1995#2145#0" expanded="false" />
+            <element signature="e#2167#2317#0" expanded="false" />
+            <element signature="e#2339#2489#0" expanded="false" />
+            <element signature="e#2511#2661#0" expanded="false" />
+            <element signature="e#2781#3756#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifeVC/src/components/backtop/backtop.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

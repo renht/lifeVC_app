@@ -1,60 +1,116 @@
 <template>
-  <div>
-    <!--回到顶部S-->
-    <img id="backtop" v-show="show" v-on:touchstart="backTop" src="./back.png" width="100%"/>
+  <div class="backtop" v-show="visible" @click="backTop" v-bind:style="style">
+    <canvas id="canvas" width="55" height="55" style="padding: 4.5rem 0"></canvas>
   </div>
 </template>
 
 <script>
-  import BScroll from 'better-scroll'
   export default {
+    name: 'hello',
     data () {
       return {
-        speed:0.5,
-        show:false
+        'visible': false,
+        'ret': 0,
+        'obj': null,
+        'speed': 0,
+        'times': 0,
+        'time': 0,
+        'style': {
+          'position': 'fixed',
+          'right': '30px',
+          'bottom': '20px',
+          'cursor': 'pointer'
+        },
+        'x': 0,
+        'y': 0,
+        'translateY': 0,
+        'angle': 0
       }
     },
-    mounted:function(){
-
-      let element = document.getElementsByClassName('loadMore-wrapper')[0];
-      element.addEventListener("scroll", this.showBack);
-    },
-    methods:{
-      showBack:function(e){
-          console.log(e.target.scrollTop)
-        if(e.target.scrollTop>window.screen.height){
-          this.show = true;
-        }else{
-          this.show = false;
-        }
+    props: {
+      defaultProps: {
+        type: Number,
+        default: 400
       },
-      backTop: function () {
-        // 滚动到顶部
-        let vm = this;
-        //home-content为需要被滚动到顶部的元素
-        //let element = document.body；
-        let element = document.getElementsByClassName('loadMore-wrapper')[0];
-        let top = element.scrollTop;
-        let timer = setInterval(function () {
-          top -= Math.abs(top * vm.speed);
-          if (top <= 1) {
-            top = 0;
-            clearInterval(timer);
+      date: {
+        type: Number,
+        default: 500
+      },
+      color: {
+        type: String,
+        default: '#6495ED'
+      }
+    },
+    mounted () {
+      this.darw('#AAD7FF')
+      window.addEventListener('scroll',this.hanScroll)
+    },
+    methods: {
+      canvas (ctx,color){
+        ctx.save();
+        ctx.translate(this.x,this.translateY)
+        ctx.lineWidth = 1
+        ctx.fillStyle = color
+        ctx.strokeStyle = color
+        ctx.beginPath()
+        ctx.moveTo(this.x-this.x,-(this.y-15))
+        ctx.lineTo(-this.x,this.y) //left
+        ctx.lineTo(this.x,this.y) //right
+        ctx.closePath()
+        ctx.fill()
+        ctx.stroke()
+        ctx.restore()
+      },
+      darw() {
+        let canvas = document.getElementById('canvas');
+        let ctx = canvas.getContext('2d')
+        let vx = 0
+        let vy = 0
+        this.x = canvas.width /2;
+        this.y = canvas.height /2;
+        window.requestAnimationFrame(()=>{
+          ctx.clearRect(0,0,canvas.width,canvas.height)
+          this.darw()
+          this.translateY = canvas.height / 2 + Math.sin(this.angle) * 9
+          this.angle += 0.1
+          this.canvas(ctx, this.color)
+        })
+
+      },
+      hanScroll(){
+        const scrollTop = this.getScroll(window)
+        this.visible = scrollTop > this.defaultProps
+      },
+      getScroll(w){
+        this.ret = w.pageYOffset
+        const method = 'scrollTop'
+        if(typeof this.ret !== 'number'){
+          let d= w.document;
+          this.ret = d.documentElemelnt[method]
+          if(typeof this.ret !== 'number'){
+            this.ret = d.body[method]
           }
-          element.scrollTop = top;
-        },20);
+        }
+        return this.ret
+      },
+      backTop(){
+        const initerval = 30
+        let num = this.date/initerval
+        this.time = 0
+        this.times = num;
+        this.speed = this.ret / num
+        this.obj = setInterval(this.setScroll,initerval)
+      },
+      setScroll(){
+        if(this.time > this.times || this.ret<=0){
+          clearInterval(this.obj)
+          return
+        }
+        this.time++
+        this.ret -= this.speed
+        document.documentElement.scrollTop = document.body.scrollTop = this.ret
       }
     }
   }
 </script>
 
-<style scoped>
-  #backtop{
-    width: 2rem;
-    height: 2rem;
-    position: fixed;
-    z-index: 999;
-    bottom: 20rem;
-    right: 0.53333333rem;
-  }
-</style>

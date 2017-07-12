@@ -221,7 +221,6 @@
         </div>
       </div>
     </div>
-    <backtop></backtop>
   </div>
 </template>
 
@@ -233,7 +232,7 @@
             return {}
         },
         methods: {},
-        components: {Swipe, Backtop},
+        components: {Swipe},
         computed: {}
     }
 </script>

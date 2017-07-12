@@ -37,9 +37,11 @@
                 >手机号快捷登录</span> <b></b></a></div>
               </form>
             </div>
-            <input type="button" value="登录" class="btn_login"> <input
-            type="button" value="注册"
-            class="btn_regisiter"></div>
+            <input type="button" value="登录" class="btn_login">
+            <router-link to="/register">
+              <input type="button" value="注册" class="btn_regisiter">
+            </router-link>
+            </div>
         </div>
       </div>
     </article>
@@ -145,6 +147,8 @@
               .fidld_skip
                 width: 96px
                 height: 31px
+                line-height 31px
+                margin-top 9px
                 display: inline-block;
                 float: right;
                 font-size: 16px;

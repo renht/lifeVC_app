@@ -37,10 +37,15 @@
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
+    <BackTop :defaultProps="300" :date="200" :color="'gray'" class="backIco"></BackTop>
   </div>
 </template>
 
+<!--defaultProps: 输入数字在滚动多少距离后显示-->
+<!--date: 输入滚动时间-->
+<!--color: 输入箭头颜色-->
 <script>
+  import BackTop from '../components/backtop/backtop.vue'
 export default {
   data () {
     return {
@@ -51,7 +56,7 @@ export default {
       isShow5: false,
     }
   },
-  components: {},
+  components: {BackTop},
   methods: {
     toggleClass1 () {
       this.isShow1 = !this.isShow1
@@ -139,4 +144,6 @@ export default {
           bg-image(user2)
 
 
+  .backIco
+    margin-bottom 100px
 </style>
