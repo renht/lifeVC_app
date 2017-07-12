@@ -17,7 +17,7 @@
               <router-link to="/new">新品</router-link>
             </li>
             <li class="font-large">
-              <a href="#">服务</a>
+              <router-link to="/channel/2860">服务</router-link>
             </li>
             <li class="font-large">
               <a href="#">下厨</a>

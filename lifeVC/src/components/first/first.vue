@@ -221,19 +221,19 @@
         </div>
       </div>
     </div>
-
+    <backtop></backtop>
   </div>
 </template>
 
 <script>
-
+    import Backtop  from '../../components/backtop/backtop.vue'
     import Swipe from 'mint-ui/lib/swipe';
     export default{
         data () {
             return {}
         },
         methods: {},
-        components: {Swipe},
+        components: {Swipe, Backtop},
         computed: {}
     }
 </script>

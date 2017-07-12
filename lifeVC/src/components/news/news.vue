@@ -1,8 +1,8 @@
 <template>
-    <div class="wrap-shelf">
+    <div class="mint-loadmore">
       <mt-loadmore :top-method="loadTop"  ref="loadmore">
-        <ul >
-          <div class="subcat-title">最近一周新品</div>
+        <ul class="wrap-shelf">
+          <p class="subcat-title">最近一周新品</p>
           <li v-for="good in news">
             <div class="shelf-item" style="position: relative;">
               <a  class="item-pic-bx">
@@ -49,24 +49,32 @@
         data () {
             return {}
         },
-        methods: {},
+        methods: {
+          loadTop () {
+            this.$refs.loadmore.onTopLoaded()
+          }
+        },
         components: {Loadmore},
-        computed: {}
+        computed: {
+
+        }
     }
 </script>
 
 <style scoped lang="stylus" rel="stylesheet/stylus">
-  .wrap-shelf
-    width: 100%;
-    margin: -7em auto 2em;
-    padding: 7em 0 0;
-    .subcat-title
-      max-width: 96%;
-      text-align: center;
-      font-size: 1.9em;
-      color: #000;
-      line-height: 2em;
-      margin: 0 auto -1.2em;
+  .mint-loadmore
+    margin-top 42px
+    .wrap-shelf
+      width: 100%;
+      margin: -7em auto 2em;
+      padding: 7em 0 0;
+      .subcat-title
+        max-width: 96%;
+        text-align: center;
+        font-size: 2.9em;
+        color: #000;
+        line-height: 2.5em;
+        margin: 0 auto -1.2em;
       .shelf-item
         width: 96%;
         border: 1px solid #ddd;
